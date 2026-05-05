@@ -3,33 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - IT RULEZ™</title>
+    <title>Privacy Policy | IT RULEZ™</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
     <style>
-        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 40px auto; padding: 0 20px; background-color: #fff; }
-        h1 { color: #f4b400; } /* Logonun sarı tonu */
-        h2 { color: #000; border-bottom: 2px solid #f4b400; padding-bottom: 5px; }
-        .back-link { display: inline-block; margin-top: 20px; color: #f4b400; text-decoration: none; font-weight: bold; }
+        :root {
+            --bg-color: #000000;
+            --accent-color: #FFD700; 
+            --text-main: #FFFFFF;
+            --text-dim: #A0A0A0;
+            --card-bg: #121212;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            background: radial-gradient(circle at center, #1a1a1a 0%, #000 70%);
+            min-height: 100vh;
+            padding: 60px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 8vw, 4rem);
+            font-weight: 900;
+            color: var(--accent-color);
+            letter-spacing: -2px;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+            border-left: 10px solid var(--accent-color);
+            padding-left: 20px;
+        }
+
+        h2 {
+            color: var(--accent-color);
+            text-transform: uppercase;
+            font-size: 1.4rem;
+            margin-top: 40px;
+            letter-spacing: 1px;
+            border-bottom: 1px solid #222;
+            padding-bottom: 10px;
+        }
+
+        p {
+            color: var(--text-dim);
+            font-weight: 300;
+            font-size: 1.1rem;
+        }
+
+        b, strong {
+            color: var(--text-main);
+            font-weight: 700;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 50px;
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: 1px solid var(--accent-color);
+            padding: 10px 20px;
+            transition: 0.3s;
+        }
+
+        .back-link:hover {
+            background: var(--accent-color);
+            color: #000;
+        }
+
+        footer {
+            margin-top: 80px;
+            text-align: center;
+            border-top: 1px solid #222;
+            padding-top: 20px;
+            font-size: 0.8rem;
+            color: #444;
+        }
     </style>
 </head>
 <body>
-    <h1>IT RULEZ™ PRIVACY POLICY</h1>
-    <p><strong>Last Updated:</strong> May 5, 2026</p>
-    
-    <h2>1. Information We Collect</h2>
-    <p>We collect personal information that you provide directly to us via contact forms, email, or social media interactions (Instagram @itrulezhub, LinkedIn, Facebook).</p>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p><strong>Last Updated:</strong> May 5, 2026</p>
+        
+        <h2>1. Information We Collect</h2>
+        <p>We collect personal information that you provide directly to us via contact forms, email, or social media interactions including <b>Instagram @itrulezhub</b>, LinkedIn, and Facebook.</p>
 
-    <h2>2. How We Use Your Information</h2>
-    <p>We use the information to provide, operate, and improve our digital content, AI insights, and to communicate with you regarding our services.</p>
+        <h2>2. How We Use Your Information</h2>
+        <p>We use the information to provide, operate, and improve our digital content, <b>AI insights</b>, and to communicate with you regarding our professional services.</p>
 
-    <h2>3. Cookies and Log Files</h2>
-    <p>Standard procedures of using log files and cookies are followed to analyze website traffic and visitor behavior.</p>
+        <h2>3. Cookies and Log Files</h2>
+        <p>Standard procedures of using log files and cookies are followed to analyze website traffic and visitor behavior on <b>rulezit.com</b>.</p>
 
-    <h2>4. Third-Party Services</h2>
-    <p>This policy does not apply to third-party platforms like LinkedIn or Instagram. Please check their respective privacy policies.</p>
+        <h2>4. Third-Party Services</h2>
+        <p>This policy does not apply to third-party platforms like LinkedIn, Instagram, or Facebook. Please check their respective privacy policies.</p>
 
-    <h2>5. Contact</h2>
-    <p>For any questions, contact us at: <strong>info@rulezit.com</strong></p>
+        <h2>5. Contact</h2>
+        <p>For any questions, contact us at: <strong>info@rulezit.com</strong></p>
 
-    <a href="index.html" class="back-link">← Back to IT RULEZ HUB</a>
+        <a href="index.html" class="back-link">← Back to IT RULEZ HUB</a>
+
+        <footer>
+            © 2026 IT RULEZ™ // BUILT WITH 1'z AND 0'z
+        </footer>
+    </div>
 </body>
 </html>
