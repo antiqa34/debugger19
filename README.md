@@ -9,4 +9,4 @@ This repository contains the source code for my professional portfolio website.
 
 
 ## 🌐 Live Demo
-You can visit the live version at: [https://debugger19.github.io](https://github.com/azerhanberknil)
+You can visit the live version at: [github.com/azerhanberknil](https://github.com/azerhanberknil)
